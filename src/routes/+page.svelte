@@ -65,7 +65,6 @@
 		text-align: center;
 	}
 	span {
-		margin-top: 30px;
 		font-size: xxx-large;
 		display: flex;
 		align-items: center;
@@ -76,7 +75,7 @@
 			transform: rotateZ(-45deg);
 		}
 		50% {
-			transform: rotateZ(45deg);
+			transform: rotateZ(90deg);
 		}
 		100% {
 			transform: rotateZ(-45deg);
