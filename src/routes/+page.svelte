@@ -31,10 +31,7 @@
 					</button>
 				</a>
 			{:else}
-				<a
-					href={title}
-					target="_blank"
-				>
+				<a href={title}>
 					<button>
 						<img
 							src={'icons/' + source}
