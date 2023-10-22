@@ -4,7 +4,7 @@
 		'mailto:contact@codingMustache.dev': 'email.svg',
 		'https://github.com/codingMustache': 'github.svg',
 		'https://www.linkedin.com/in/codingmustache/': 'linkedin.svg',
-		'"tel:+14422646552"': 'phone.svg'
+		'tel:4422646552': 'phone.svg'
 	}
 </script>
 
@@ -31,7 +31,10 @@
 					</button>
 				</a>
 			{:else}
-				<a href={title}>
+				<a
+					href={title}
+					target="_blank"
+				>
 					<button>
 						<img
 							src={'icons/' + source}
